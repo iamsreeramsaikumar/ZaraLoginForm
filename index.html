@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zara</title>
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    content {
+        margin-bottom: 203px;
+    }
+
+    .menubar {
+        display: flex;
+    }
+
+    #menu {
+        height: 30px;
+        margin-top: 18px;
+    }
+
+    #zara {
+        font-size: 60px;
+        margin-left: 10px;
+        font-family: none;
+    }
+
+    #help {
+        float: right;
+        margin-top: -45px;
+    }
+
+    .login {
+        width: 40vh;
+        height: 26vh;
+        /* border: 1px solid black; */
+        margin: 56px auto;
+        margin-right: -12%;
+    }
+
+    .purchase {
+        width: 40vh;
+        height: 26vh;
+        /* border: 1px solid black; */
+        margin: 56px auto;
+
+
+    }
+
+    content {
+        display: flex;
+    }
+
+    #log {
+        background: black;
+        color: white;
+        height: 32px;
+        width: 100%;
+        text-decoration: none;
+        border: none;
+        margin: 17px 0px;
+    }
+
+    #pur2 {
+        background: black;
+        color: white;
+        height: 32px;
+        width: 100%;
+        text-decoration: none;
+        border: none;
+        margin: 22px 0px;
+    }
+
+    .user {
+        padding: 23px 0px;
+    }
+
+    .hide {
+        padding: 23px 0px;
+    }
+
+    #ip {
+        text-decoration: none;
+        border: none;
+        outline: none;
+    }
+
+    #pur1 {
+        padding: 10px 0px;
+    }
+
+    #pur {
+        padding-bottom: 15px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    #lab {
+        font-size: 11px;
+        color: silver;
+        padding: 2p;
+        margin: 3px 0px;
+    }
+
+    .footer {
+        display: flex;
+    }
+
+    ul li {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    #bold {
+        font-weight: bold;
+    }
+
+    .margin {
+        margin: 19px 37px;
+    }
+
+    .footer {
+        margin: -30px 244px;
+    }
+
+    li {
+        padding: 14px 0px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="menubar">
+            <img id="menu" src="menu.png" alt="">
+            <h1 id="zara">ZARA</h1>
+        </div>
+        <h5 id="help">HELP</h5>
+
+    </header>
+
+    <content>
+        <div class="login">
+            <h2 id="bold">LOG IN</h2>
+            <div class="user">
+                <label for="email">E-mail</label><br>
+                <input id="ip" type="text"><br>
+                <hr>
+                <p id="lab">Enter your e-mail address</p>
+            </div>
+            <div class="hide">
+                <label for="password">Password</label><br>
+                <input id="ip" type="password">
+                <hr>
+                <p id="lab">Enter your password</p>
+            </div>
+            <p><u>Have you forgotten your password?</u></p>
+            <button id="log">LOG IN</button>
+        </div>
+        <div class="purchase">
+            <h2 id="pur">PURCHASE AS A GUEST</h2>
+            <P id="pur1">You can purchase as a guest. You will just need to indicate the essential details to place your
+                order.
+            </P>
+            <p id="pur1">If you'd like, you can register and save your details for future purchases at the end of the
+                purchase
+                process.</p>
+            <button id="pur2">CONTINUE AS A GUEST</button>
+        </div>
+    </content>
+    <hr>
+    <footer>
+        <div class="footer">
+            <div class="margin">
+                <ul>
+                    <li id="bold">HELP</li>
+                    <li>SHOP AT ZARA.COM</li>
+                    <li>PRODUCT</li>
+                    <li>GET CARD</li>
+                </ul>
+            </div>
+            <div class="margin">
+                <ul>
+                    <li id="bold">FOLLOW US</li>
+                    <li>NEWSLETTER</li>
+                    <li>INSTAGRAM</li>
+                    <li>FACEBOOK</li>
+                </ul>
+            </div>
+            <div class="margin">
+                <ul>
+                    <li id="bold">COMPANY</li>
+                    <li>ABOUT US</li>
+                    <li>OFFICES</li>
+                    <li>STORES</li>
+                </ul>
+            </div>
+            <div class="margin">
+                <ul>
+                    <li id="bold">POLICIES</li>
+                    <li>PRIVACY POLICY</li>
+                    <li>PURCHASE CONDITIONS</li>
+                    <li>GIFT CARD CONDITIONS</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
